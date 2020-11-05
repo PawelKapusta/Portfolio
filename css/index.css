@@ -1,55 +1,154 @@
 @import url(./fonts.css);
 
-:root{
+:root {
     --robotoFont: 'Roboto', cursive;
-    --primary-color: #4458dc;
-    --primary-color2: #854fee;
     --title-color: #141313;
-    --text-color: #777777;
-    --border-color: #201f1f17;
     --gradient-logo: linear-gradient(to top left, #ffcc00 0%, #660066 100%);
     --gradient-color: linear-gradient(to top, #33ccff 0%, #9933ff 100%);
-    --shadow-color:  0px 10px 30px rgba(118, 85, 225, 0.3);
+    --shadow-color: 0px 10px 30px rgba(118, 85, 225, 0.3);
     --box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
 }
 
-html, body{
+html, body {
     margin: 0%;
     box-sizing: border-box;
     width: 100%;
     height: 100%;
 }
-.header_area .main-menu .navbar{
-    padding: 1rem 1rem ;
+
+.header_area .main-menu .navbar {
+    padding: 1rem 1rem;
 }
-.header_area .main-menu .navbar .navbar-brand{
+
+.header_area .main-menu .navbar .navbar-brand {
     background: var(--gradient-logo);
-    font-weight: 400;
-    font-size: x-large;
+    font-weight: 500;
+    font-size: xx-large;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     padding: 0 1.5rem 0 2rem;
 }
-.header_area .main-menu .navbar-nav{
+
+.header_area .main-menu .navbar-nav {
     padding: .5rem 12rem 0 0;
 }
-.header_area .main-menu .nav-item .nav-link{
+
+.header_area .main-menu .nav-item .nav-link {
+    font-size: 1.3rem;
     font-family: var(--robotoFont);
     text-transform: uppercase;
     padding: 0 1.2rem 0 1rem;
     color: var(--title-color);
 }
-.header_area .main-menu .navbar-nav .active a{
+
+.header_area .main-menu .navbar-nav .active a {
+    font-weight: revert;
     background: var(--gradient-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
-.header_area .main-menu .navbar-nav a:hover{
+.header_area .main-menu .navbar-nav a:hover {
     background: var(--gradient-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+}
+/*.site-main .site-banner {*/
+/*    background: url(../photos/undraw_web_developer_p3e5.png) no-repeat 0% 50%;*/
+/*}*/
+
+.site-main .site-banner .site-title h3 {
+    padding-top: 20%;
+    font-weight: 500;
+}
+
+.site-main .site-banner .site-title h3::after { /*Black line*/
+    content: " ";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h2 {
+    font-size: 5rem;
+}
+
+.site-main .site-banner .site-title h4 {
+    font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-image > img {
+    margin-left: 5%;
+    padding: 5rem .5rem;
+    width: 35rem;
+    height: 35rem;
+}
+
+.button {
+    padding: .6rem 1.5rem;
+    margin-top: 3%;
+    font: normal var(--robotoFont);
+    font-weight: 500;
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 4px;
+}
+
+.button.secondary-button::after {
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    bottom: -2px;
+    right: -2px;
+    background: linear-gradient(to top left, #66ffff 0%, #0099cc 100%);
+    content: ' ';
+    z-index: -1;
+    border-radius: 12px;
+}
+
+.button.secondary-button {
+    background: white;
+    background-clip: padding-box;
+    transition: background .6s ease;
+}
+
+.button.secondary-button:hover {
+    background: linear-gradient(to top left, #66ffff 0%, #66ffcc 100%);
+    color: whitesmoke;
+    box-shadow: var(--gradient-color);
+}
+
+.carousel-item {
+    width: 100%;
+    height: 30rem;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 110%;
+
+
+}
+.site-main .about-area{
+    padding: 4rem 4rem;
+}
+.site-main .about-area .about-image{
+    padding: 2.5rem 0;
+}
+.site-main .about-area .about-title h2 > span{
+    display: inline-block;
+    font: normal bold var(--robotoFont);
+    font-size: 4rem;
+    letter-spacing: .5rem;
+}
+
+.site-main .about-area .about-title .paragraph > p{
+    padding: .8rem 0;
+    font-size: 1.25em;
 }
