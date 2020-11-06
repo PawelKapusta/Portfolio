@@ -1,5 +1,16 @@
 @import url(./fonts.css);
 
+@media (min-width: 600px) {
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 3;
+        background: white;
+    }
+
+}
+
 :root {
     --robotoFont: 'Roboto', cursive;
     --title-color: #141313;
@@ -14,12 +25,17 @@ html, body {
     box-sizing: border-box;
     width: 100%;
     height: 100%;
+    z-index: 1;
 }
 
 .header_area .main-menu .navbar {
-    padding: 1rem 1rem;
+    padding: 0 1rem;
 }
-
+.header_area .main-menu .navbar .navbar-nav li a > img{
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover;
+}
 .header_area .main-menu .navbar .navbar-brand {
     background: var(--gradient-logo);
     font-weight: 500;
@@ -31,14 +47,14 @@ html, body {
 }
 
 .header_area .main-menu .navbar-nav {
-    padding: .5rem 12rem 0 0;
+    padding: .8rem 8rem 0 0;
 }
 
 .header_area .main-menu .nav-item .nav-link {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-family: var(--robotoFont);
     text-transform: uppercase;
-    padding: 0 1.2rem 0 1rem;
+    padding: 0 2rem 0 1rem;
     color: var(--title-color);
 }
 
@@ -59,7 +75,9 @@ html, body {
 /*.site-main .site-banner {*/
 /*    background: url(../photos/undraw_web_developer_p3e5.png) no-repeat 0% 50%;*/
 /*}*/
-
+.site-main{
+    padding-top: .9rem;
+}
 .site-main .site-banner .site-title h3 {
     padding-top: 20%;
     font-weight: 500;
@@ -84,10 +102,10 @@ html, body {
 }
 
 .site-main .site-banner .banner-image > img {
-    margin-left: 5%;
+    margin-left: 2%;
     padding: 5rem .5rem;
-    width: 35rem;
-    height: 35rem;
+    width: 30rem;
+    height: 30rem;
 }
 
 .button {
@@ -124,19 +142,23 @@ html, body {
     box-shadow: var(--gradient-color);
 }
 
-.carousel-item {
-    width: 100%;
-    height: 30rem;
+.carousel{
+    object-fit: cover;
+    margin: auto;
+    width: auto;
+}
+.carousel .carousel-item > img {
+    max-height: 30rem;
 }
 
-.carousel-item img {
-    width: 100%;
-    height: 110%;
-
+.carousel-photo img {
+    object-fit: cover;
+    min-height: 300px;
 
 }
+
 .site-main .about-area{
-    padding: 4rem 4rem;
+    padding: 4rem 2rem;
 }
 .site-main .about-area .about-image{
     padding: 2.5rem 0;
@@ -144,11 +166,17 @@ html, body {
 .site-main .about-area .about-title h2 > span{
     display: inline-block;
     font: normal bold var(--robotoFont);
-    font-size: 4rem;
-    letter-spacing: .5rem;
+    font-size: 3rem;
+    letter-spacing: .3rem;
 }
-
 .site-main .about-area .about-title .paragraph > p{
     padding: .8rem 0;
     font-size: 1.25em;
+}
+.cards{
+    background: url("./photos/ocean.jpg");
+    padding: 0 2rem;
+}
+.cards .card .carousel-item > img{
+    object-fit: cover;
 }
