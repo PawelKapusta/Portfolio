@@ -2,16 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!--        <meta http-equiv="refresh" content="3">-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-          integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
             crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
             crossorigin="anonymous"></script>
 
     <title>Portfolio</title>
@@ -24,11 +26,11 @@
     <div class="main-menu">
         <nav class="navbar navbar-expand-lg navbar-light ">
             <a class="navbar-brand" href="#"><img src="./photos/icons8-portfolio-80.png" width="25%"> PORTFOLIO</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
-<!--                <div class="mr-auto"></div>-->
                 <ul class="navbar-nav">
                     <li class="nav-item active">
                         <a class="nav-link " href="#"> <img src="./photos/undraw_Building_vpxo.png"> Home <span
@@ -44,8 +46,6 @@
                         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"
                         > <img src="./photos/undraw_Projections_re_1mrh.png"> Project
                             2</a>
-
-
                     </li>
                     <li class="nav-item">
                         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"> <img
@@ -65,9 +65,7 @@
 
 
 <main class="site-main">
-
     <section class="site-banner">
-
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-12 site-title">
@@ -165,70 +163,79 @@
                 </div>
             </div>
         </div>
-
     </section>
 
     <section class="cards">
-        <div class="row row-cols-2 row-cols-md-2">
+        <div class="row row-cols-1 row-cols-md-2">
             <div class="col mb-4">
-                <div class="card">
+                <div class="card text-center">
                     <img src="./photos/97901160-11465f80-1d3c-11eb-8b2e-88fdb022512e.png" class="card-img-top"
-                         alt="...">
+                         alt="project1">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                        <a href="#" class="btn btn-primary">View page</a>
+                        <h5 class="card-title">Listing pictures</h5>
+                        <p class="card-text">Searching 🔍 for pictures 📷 in API</p>
+                        <a href="https://listingpictures.netlify.app/" target="_blank" class="btn btn-primary" >View
+                            page</a>
                     </div>
                 </div>
             </div>
             <div class="col mb-4">
-                <div class="card">
+                <div class="card text-center">
                     <img src="./photos/97347663-63473b00-188d-11eb-9554-5312de3cd123.png" class="card-img-top"
-                         alt="...">
+                         alt="project2">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content.</p>
-                        <a href="#" class="btn btn-primary">View page</a>
+                        <h5 class="card-title">Search for YouTube videos</h5>
+                        <p class="card-text">Listing videos from YT 💦</p>
+                        <a href="https://listing-yt-videos.netlify.app/" target="_blank" class="btn btn-primary">View
+                            page</a>
                     </div>
                 </div>
             </div>
-            <div class="col mb-4">
-                <div class="card">
-                    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img class="d-block w-100"
-                                     src="./photos/97802420-88e49380-1c43-11eb-844c-8919ad54d73a.png" alt="First slide">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100"
-                                     src="./photos/97802217-250d9b00-1c42-11eb-8be5-0c9aa39676e9.png"
-                                     alt="Second slide">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100"
-                                     src="./photos/97802225-3060c680-1c42-11eb-8d72-c71ec5300c91.png" alt="Third slide">
-                            </div>
+
+        </div>
+        <div class="col mb-4">
+            <div class="card text-center">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100 card-img-top"
+                                 src="./photos/project3ss.png" alt="First slide">
                         </div>
-                        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
+                        <div class="carousel-item">
+                            <img class="d-block w-100 card-img-top"
+                                 src="./photos/97802217-250d9b00-1c42-11eb-8be5-0c9aa39676e9.png"
+                                 alt="Second slide">
+                        </div>
+                        <div class="carousel-item card-img-top">
+                            <img class="d-block w-100"
+                                 src="./photos/97802225-3060c680-1c42-11eb-8d72-c71ec5300c91.png" alt="Third slide">
+                        </div>
                     </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                        <a href="#" class="btn btn-primary">View page</a>
-                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Widgets</h5>
+                    <p class="card-text">Navbar with: 📋 Simple information about React, searching data in Wikipedia
+                        API 💬, changing text color, translate text to different language 🌎</p>
+                    <a href="https://somewidgets.netlify.app/" target="_blank" class="btn btn-primary">View page</a>
                 </div>
             </div>
+        </div>
+        <div class="bubbles">
+            <img src="./photos/bubble.png" alt="bubble.jpg">
+            <img src="./photos/bubble.png" alt="bubble.jpg">
+            <img src="./photos/bubble.png" alt="bubble.jpg">
+            <img src="./photos/bubble.png" alt="bubble.jpg">
+            <img src="./photos/bubble.png" alt="bubble.jpg">
+            <img src="./photos/bubble.png" alt="bubble.jpg">
+            <img src="./photos/bubble.png" alt="bubble.jpg">
         </div>
     </section>
 

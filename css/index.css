@@ -19,6 +19,22 @@
     --shadow-color: 0px 10px 30px rgba(118, 85, 225, 0.3);
     --box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
 }
+@keyframes bubble {
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-120vh);
+        opacity: 0;
+    }
+}
 
 html, body {
     margin: 0%;
@@ -54,7 +70,7 @@ html, body {
     font-size: 1.2rem;
     font-family: var(--robotoFont);
     text-transform: uppercase;
-    padding: 0 2rem 0 1rem;
+    padding: 0 1rem .2rem 4rem;
     color: var(--title-color);
 }
 
@@ -174,9 +190,60 @@ html, body {
     font-size: 1.25em;
 }
 .cards{
-    background: url("./photos/ocean.jpg");
-    padding: 0 2rem;
+    background: url("../photos/bubbles.jpeg") no-repeat;
+    background-size:cover;
+    padding: 3rem 0;
 }
+.cards .card {
+    margin: auto;
+    max-width: 90vh;
+}
+.cards .card .btn-primary{
+    padding: 1% 3.6%;
+    margin: 1% 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    background: linear-gradient(90deg,#755bea,#ff72c0);
+}
+
 .cards .card .carousel-item > img{
-    object-fit: cover;
+    min-height: 42vh;
+}
+.cards .bubbles{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+
+}
+.cards .bubbles > img{
+    z-index: 2;
+    width: 50px;
+    height: 50px;
+    animation: bubble 7s linear infinite;
+}
+.cards .bubbles > img:nth-child(1){
+    animation-delay: 2s;
+}
+.cards .bubbles > img:nth-child(2){
+    animation-delay: 1s;
+}
+.cards .bubbles > img:nth-child(3){
+    animation-delay: 3s;
+}
+.cards .bubbles > img:nth-child(4){
+    animation-delay: 4.5s;
+}
+.cards .bubbles > img:nth-child(5){
+    animation-delay: 3s;
+}
+.cards .bubbles > img:nth-child(6){
+    animation-delay: 6s;
+}
+.cards .bubbles > img:nth-child(7){
+    animation-delay: 2s;
 }
