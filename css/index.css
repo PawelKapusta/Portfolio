@@ -283,7 +283,6 @@ html, body {
     font-size: 5rem;
     font-weight: 700;
 }
-.file-field.big .file-path-wrapper {
-    height: 3.2rem; }
-.file-field.big .file-path-wrapper .file-path {
-    height: 3rem; }
+.contactMe button{
+    background: linear-gradient(to right, #ec6f66, #f3a183);
+}
