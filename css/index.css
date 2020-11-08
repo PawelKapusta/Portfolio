@@ -188,9 +188,11 @@ html, body {
     font-size: 1.25em;
 }
 .cards{
-    background: url("../photos/pexels-photo-459610.jpeg") no-repeat;
+    background: url("../photos/bubbles.jpeg") no-repeat;
     background-size:cover;
     padding: 3rem 0;
+
+
 }
 .cards .card {
     margin: auto;
@@ -208,6 +210,11 @@ html, body {
 
 .cards .card .carousel-item > img{
     min-height: 42vh;
+}
+.cards .carousel-control-prev-icon,
+.cards .carousel-control-next-icon
+{
+    filter: invert(1);
 }
 .cards .bubbles{
     width: 100%;
@@ -258,9 +265,25 @@ html, body {
     font-size: 4rem;
     font-weight: 900;
     text-transform: uppercase;
-    background: linear-gradient(to bottom right,#66ffff 0%, red 100%);
+    background: -webkit-linear-gradient(to right, #1fa2ff, #12d8fa, #a6ffcb);
+    background: linear-gradient(to right, #1fa2ff, #12d8fa, #a6ffcb);
     background-size: 200%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: 0.5s ease-out;
 }
+.contactMeTitle{
+    margin: 0;
+    padding: 3rem 0;
+    text-align: center;
+    letter-spacing: 0.4rem;
+
+}
+.contactMeTitle > h1 {
+    font-size: 5rem;
+    font-weight: 700;
+}
+.file-field.big .file-path-wrapper {
+    height: 3.2rem; }
+.file-field.big .file-path-wrapper .file-path {
+    height: 3rem; }

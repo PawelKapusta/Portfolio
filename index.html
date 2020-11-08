@@ -73,7 +73,11 @@
                     <h2 class="title-text text-uppercase">I am Paul</h2>
                     <h4 class="title-text text-uppercase">Junior Software Engineer</h4>
                     <div class="site-buttons">
-                        <button class="btn button secondary-button text-uppercase">Get my CV</button>
+                        <button class="btn button secondary-button text-uppercase">
+                            <a style="text-decoration:none" href="./CV/Paweł_KapustaCV.pdf" download>
+                                Get my CV
+                            </a>
+                           </button>
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-8 banner-image">
@@ -176,7 +180,7 @@
                          alt="project1">
                     <div class="card-body">
                         <h5 class="card-title">Listing pictures</h5>
-                        <p class="card-text">Searching 🔍 for pictures 📷 in API</p>
+                        <p class="card-text">Searching 🔍 for pictures 📷</p>
                         <a href="https://listingpictures.netlify.app/" target="_blank" class="btn btn-primary">View
                             page</a>
                     </div>
@@ -194,7 +198,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
         <div class="col mb-4">
             <div class="card text-center">
@@ -225,8 +228,7 @@
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">Widgets</h5>
-                    <p class="card-text">Navbar with: 📋 Simple information about React, searching data in Wikipedia
-                        API 💬, changing text color, translate text to different language 🌎</p>
+                    <p class="card-text">Navbar with: 📋 Simple information about React, searching data 💬, changing text color, translate text to different language 🌎</p>
                     <a href="https://somewidgets.netlify.app/" target="_blank" class="btn btn-primary">View page</a>
                 </div>
             </div>
@@ -241,7 +243,41 @@
             <img src="./photos/bubble.png" alt="bubble.jpg">
         </div>
     </section>
+    <div class="contactMeTitle">
+        <h1>Contact Me</h1>
+    </div>
+    <section class="contactMe">
+        <div class="container">
+            <div class="row-col-md-4">
+                <form>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">Full Name</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Your Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <label class="col-sm-3 control-label">Attachment
+                    </label>
+                    <div class="input-group mb-3">
+                        <div class="custom-file">
+                            <label class="custom-file-label" for="inputGroupFile02">Choose file</label>
+                            <input type="file" class="custom-file-input" id="inputGroupFile02">
 
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </form>
+            </div>
+        </div>
+
+    </section>
 
 </main>
 
