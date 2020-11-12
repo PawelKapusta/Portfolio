@@ -8,8 +8,8 @@
         z-index: 3;
         background: white;
     }
-
 }
+
 
 :root {
     --robotoFont: 'Roboto', cursive;
@@ -59,11 +59,11 @@ html, body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    padding: 0 1.5rem 0 2rem;
+    padding: 0 1.5rem 0 6rem;
 }
 
 .header_area .main-menu .navbar-nav {
-    padding: .8rem 8rem 0 0;
+    padding: .8rem 0rem 0 0;
 }
 
 .header_area .main-menu .nav-item .nav-link {
@@ -192,11 +192,11 @@ html, body {
     background-size:cover;
     padding: 3rem 0;
 
-
 }
+
 .cards .card {
     margin: auto;
-    max-width: 80vh;
+    max-width: 90vh;
 }
 .cards .card .btn-primary{
     margin: 1% 0;
@@ -254,7 +254,6 @@ html, body {
 
 .projectsIntro{
     background: white;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -267,7 +266,7 @@ html, body {
     text-transform: uppercase;
     background: -webkit-linear-gradient(to right, #1fa2ff, #12d8fa, #a6ffcb);
     background: linear-gradient(to right, #1fa2ff, #12d8fa, #a6ffcb);
-    background-size: 200%;
+    background-size: 100%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: 0.5s ease-out;
