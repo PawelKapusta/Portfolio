@@ -141,7 +141,7 @@ html, body {
     background: linear-gradient(to top left, #66ffff 0%, #0099cc 100%);
     content: ' ';
     z-index: -1;
-    border-radius: 12px;
+    border-radius: 50px;
 }
 
 .button.secondary-button {
@@ -154,6 +154,7 @@ html, body {
     background: linear-gradient(to top left, #66ffff 0%, #66ffcc 100%);
     color: whitesmoke;
     box-shadow: var(--gradient-color);
+    border-radius: 50px;
 }
 
 .carousel{
