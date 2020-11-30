@@ -283,9 +283,7 @@ html, body {
     font-size: 5rem;
     font-weight: 700;
 }
-.contactMe .upload{
-    margin-top: 5%;
-}
+
 .contactMe button{
 
     background: linear-gradient(to right, #ec6f66, #f3a183);

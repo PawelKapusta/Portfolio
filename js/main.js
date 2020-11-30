@@ -1,9 +1,5 @@
-console.log("It works");
-
 $(document).ready(function () {
   $('.submit').click(function (event) {
-
-    console.log('clicked button');
 
     var name = $('.fullName').val();
     var email = $('.email').val();
