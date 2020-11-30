@@ -255,8 +255,7 @@
      <img src="./photos/undraw_delivery_address_03n0.png" alt="contactPhoto" class="img-thumbnail">
     </div>
     <div class="col-12 col-lg-6 col-md-8">
-
-     <form id="contact-form" action="https://formspree.io/f/mwkwnrrw"
+     <form id="contact-form" action="https://formspree.io/f/xpzojyvd"
            method="POST" enctype="multipart/form-data">
       <div class="form-group">
        <label for="formGroupExampleInput">Full Name</label>
@@ -272,9 +271,12 @@
        <label for="exampleFormControlTextarea1">Your Message</label>
        <textarea class="form-control message" id="exampleFormControlTextarea1" rows="3" name="message" required></textarea>
       </div>
-      <label class="col-sm-3 control-label">Attachment:
-       <input id="input-b1" type="file" name="attachment" class="file" multiple>
-      </label><br>
+      <div class="form-group">
+       <label for="upload"> Attachment:
+        <input type="file" name="attachment" id="upload" accept="image/png, image/jpeg" class="form-control">
+       </label>
+      </div>
+     <br>
       <br>
       <button type="submit" class="btn btn-primary submit">Send</button>
       <div class="status"></div>
