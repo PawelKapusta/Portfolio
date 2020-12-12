@@ -20,9 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0139c66d-482a-46dd-bf44-3c61677d3720" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Project2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/Project2/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/project2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +43,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.14.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -47,6 +52,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Legion\WebstormProjects\Project1WWW\Project2" />
       <recent name="C:\Users\Legion\WebstormProjects\Project1WWW\js" />
       <recent name="C:\Users\Legion\WebstormProjects\Project1WWW\css" />
     </key>
@@ -79,7 +85,11 @@
       <workItem from="1605646510621" duration="793000" />
       <workItem from="1605695203900" duration="89000" />
       <workItem from="1606252287355" duration="5986000" />
-      <workItem from="1606730856773" duration="8510000" />
+      <workItem from="1606730856773" duration="8644000" />
+      <workItem from="1606870212350" duration="1995000" />
+      <workItem from="1607623228942" duration="2527000" />
+      <workItem from="1607677555893" duration="17335000" />
+      <workItem from="1607776156164" duration="8612000" />
     </task>
     <servers />
   </component>

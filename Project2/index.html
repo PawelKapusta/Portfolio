@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+         crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+         crossorigin="anonymous"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+         crossorigin="anonymous"></script>
+
+ <title>Portfolio</title>
+ <link rel="stylesheet" href="../css/bootstrap.min.css">
+ <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+
+<header class="header_area" id="navbar">
+ <div class="main-menu">
+  <nav class="navbar navbar-expand-lg navbar-light ">
+   <a class="navbar-brand" href="../index.html"><img src="../photos/icons8-portfolio-80.png" width="25%"> PORTFOLIO</a>
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+   </button>
+   <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+     <li class="nav-item active">
+      <a class="nav-link " href="../index.html"> <img src="../photos/undraw_Building_vpxo.png"> Home <span
+        class="sr-only">(current)</span></a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link" href="#about"> <img src="../photos/undraw_personal_information_962o.png">
+       About
+       Me</a>
+     </li>
+     <li class="nav-item">
+
+      <a class="nav-link" href="index.html" tabindex="-1" aria-disabled="true"
+      > <img src="../photos/undraw_Projections_re_1mrh.png"> Project
+       2</a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"> <img
+        src="../photos/undraw_Organizing_projects_0p9a.png "> Project 3
+
+      </a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link " href="#contactMe"> <img src="../photos/undraw_personal_email_t7nw.png"> Contact
+       Me</a>
+     </li>
+    </ul>
+   </div>
+  </nav>
+ </div>
+</header>
+
+
+<main class="site-main">
+ <div class="spinner-border"
+      role="status" id="loading">
+  <span class="sr-only">Loading...</span>
+ </div>
+ <table class="table" id="table">
+
+ </table>
+
+
+</main>
+
+
+<footer class="footer-area">
+ <div class="container">
+  <div class="">
+   <div class="site-logo text-center py-4">
+    <a href="#"><img src="../photos/icons8-portfolio-80.png" alt="logo"></a>
+   </div>
+   <div class="social text-center">
+    <h5 class="text-uppercase">Follow me</h5>
+    <a href="https://www.facebook.com/pawel.kapusta.50" target="_blank"><img src="../photos/icons8-facebook-20.png"
+                                                                             alt="facebook.jpg"></a>
+    <a href="https://github.com/PawelKapusta" target="_blank"><img src="../photos/icons8-github-20.png"
+                                                                   alt="github.jpg"></a>
+    <a href="https://www.instagram.com/pawel.sony/" target="_blank"><img src="../photos/icons8-instagram-20.png"
+                                                                         alt="instagram.jpg"></a>
+    <a href="https://www.linkedin.com/in/pawe%C5%82-kapusta-816ab11a5/" target="_blank"><img
+      src="../photos/icons8-linkedin-20.png" alt="linkedin.jpg"></a>
+   </div>
+   <div class="copyrights text-center">
+    <p class="para">
+     Copyright ©2020 All rights reserved
+    </p>
+   </div>
+  </div>
+ </div>
+</footer>
+
+<script src="../js/main.js"></script>
+<script src="../js/project2.js"></script>
+<script src="../js/jquery-3.5.1.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+
+<script async>
+  window.onscroll = function () {
+    myFunction()
+  };
+
+  const navbar = document.getElementById("navbar");
+  const sticky = navbar.offsetTop;
+
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+
+  // let students = [];
+  //
+  // function loadJSON() {
+  //   var xobj = new XMLHttpRequest();
+  //   xobj.onreadystatechange = function () {
+  //     if (xobj.readyState === 4 && xobj.status === 200) {
+  //       var obj = JSON.parse(this.responseText);
+  //       for (let i = 0; i < obj.length; i++) {
+  //         students.push(obj[i]);
+  //       }
+  //     }
+  //   };
+  //   xobj.open('GET', 'data.json', true);
+  //   xobj.send();
+  // }
+// loadJSON();
+
+
+</script>
+</body>
+</html>

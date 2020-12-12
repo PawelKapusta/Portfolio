@@ -1,0 +1,4313 @@
+[
+    {
+        "first_name": "Shane",
+        "last_name": "Adams",
+        "birth_date": "14 OCT 1997",
+        "year_of_study": "1",
+        "index": "1644936",
+        "courses": {
+            "2015": {
+                "AlgorithmsI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "BasicPhysicsI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "ProgrammingI": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "MathematicalAnalysisI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        2,
+                        4
+                    ]
+                },
+                "Algebra": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "first_name": "Audrey",
+        "last_name": "Woods",
+        "birth_date": "14 AUG 1995",
+        "year_of_study": "3",
+        "index": "1361097",
+        "courses": {
+            "2015": {
+                "AlgorithmsI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "BasicPhysicsI": {
+                    "exercices": [
+                        2,
+                        3
+                    ],
+                    "lecture": [
+                        2,
+                        5
+                    ]
+                },
+                "ProgrammingI": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "MathematicalAnalysisI": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        2,
+                        3
+                    ]
+                },
+                "Algebra": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        2,
+                        3
+                    ]
+                }
+            },
+            "2016": {
+                "AlgorithmsII": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "BasicPhysicsII": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        2,
+                        4
+                    ]
+                },
+                "ProgrammingII": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "MathematicalAnalysisII": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "NumericalMethodsI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "Java": {
+                    "exercices": [
+                        2,
+                        4
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "C++I": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        2,
+                        5
+                    ]
+                }
+            },
+            "2017": {
+                "AlgorithmsIII": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "ProgrammingIII": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "NumericalMethodsII": {
+                    "exercices": [
+                        2,
+                        3
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "C++II": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        2,
+                        5
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "first_name": "Donald",
+        "last_name": "Liu",
+        "birth_date": "26 AUG 1996",
+        "year_of_study": "3",
+        "index": "1024954",
+        "courses": {
+            "2016": {
+                "AlgorithmsI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "BasicPhysicsI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "ProgrammingI": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "MathematicalAnalysisI": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "Algebra": {
+                    "exercices": [
+                        2,
+                        5
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                }
+            },
+            "2017": {
+                "AlgorithmsII": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "BasicPhysicsII": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "ProgrammingII": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "MathematicalAnalysisII": {
+                    "exercices": [
+                        2,
+                        4
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "NumericalMethodsI": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "Java": {
+                    "exercices": [
+                        2,
+                        3
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "C++I": {
+                    "exercices": [
+                        2,
+                        3
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                }
+            },
+            "2018": {
+                "AlgorithmsIII": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        2,
+                        4
+                    ]
+                },
+                "ProgrammingIII": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "NumericalMethodsII": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "C++II": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "first_name": "Nathan",
+        "last_name": "Tran",
+        "birth_date": "30 JUN 1997",
+        "year_of_study": "1",
+        "index": "1511015",
+        "courses": {
+            "2015": {
+                "AlgorithmsI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "BasicPhysicsI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "ProgrammingI": {
+                    "exercices": [
+                        2,
+                        5
+                    ],
+                    "lecture": [
+                        2,
+                        4
+                    ]
+                },
+                "MathematicalAnalysisI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        2,
+                        5
+                    ]
+                },
+                "Algebra": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "first_name": "Courtney",
+        "last_name": "Nelson",
+        "birth_date": "16 APR 1994",
+        "year_of_study": "1",
+        "index": "1641642",
+        "courses": {
+            "2012": {
+                "AlgorithmsI": {
+                    "exercices": [
+                        2,
+                        3
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "BasicPhysicsI": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "ProgrammingI": {
+                    "exercices": [
+                        2,
+                        3
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "MathematicalAnalysisI": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "Algebra": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        2,
+                        5
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "first_name": "Lisa",
+        "last_name": "Davila",
+        "birth_date": "07 APR 1994",
+        "year_of_study": "1",
+        "index": "1321867",
+        "courses": {
+            "2012": {
+                "AlgorithmsI": {
+                    "exercices": [
+                        2,
+                        3
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "BasicPhysicsI": {
+                    "exercices": [
+                        2,
+                        5
+                    ],
+                    "lecture": [
+                        2,
+                        3
+                    ]
+                },
+                "ProgrammingI": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "MathematicalAnalysisI": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "Algebra": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "first_name": "Diana",
+        "last_name": "Barber",
+        "birth_date": "27 AUG 1997",
+        "year_of_study": "3",
+        "index": "1203945",
+        "courses": {
+            "2017": {
+                "AlgorithmsI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "BasicPhysicsI": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "ProgrammingI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "MathematicalAnalysisI": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        2,
+                        4
+                    ]
+                },
+                "Algebra": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                }
+            },
+            "2018": {
+                "AlgorithmsII": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "BasicPhysicsII": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "ProgrammingII": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "MathematicalAnalysisII": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        2,
+                        5
+                    ]
+                },
+                "NumericalMethodsI": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "Java": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        2,
+                        3
+                    ]
+                },
+                "C++I": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                }
+            },
+            "2019": {
+                "AlgorithmsIII": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "ProgrammingIII": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "NumericalMethodsII": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "C++II": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "first_name": "Robert",
+        "last_name": "Lucas",
+        "birth_date": "06 FEB 1997",
+        "year_of_study": "3",
+        "index": "1813188",
+        "courses": {
+            "2017": {
+                "AlgorithmsI": {
+                    "exercices": [
+                        2,
+                        5
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "BasicPhysicsI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "ProgrammingI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "MathematicalAnalysisI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "Algebra": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        2,
+                        3
+                    ]
+                }
+            },
+            "2018": {
+                "AlgorithmsII": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "BasicPhysicsII": {
+                    "exercices": [
+                        2,
+                        3
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "ProgrammingII": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "MathematicalAnalysisII": {
+                    "exercices": [
+                        2,
+                        5
+                    ],
+                    "lecture": [
+                        2,
+                        3
+                    ]
+                },
+                "NumericalMethodsI": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "Java": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "C++I": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        2,
+                        5
+                    ]
+                }
+            },
+            "2019": {
+                "AlgorithmsIII": {
+                    "exercices": [
+                        2,
+                        5
+                    ],
+                    "lecture": [
+                        2,
+                        5
+                    ]
+                },
+                "ProgrammingIII": {
+                    "exercices": [
+                        2,
+                        3
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "NumericalMethodsII": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "C++II": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "first_name": "Erin",
+        "last_name": "Wagner",
+        "birth_date": "18 FEB 1996",
+        "year_of_study": "1",
+        "index": "1129783",
+        "courses": {
+            "2014": {
+                "AlgorithmsI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "BasicPhysicsI": {
+                    "exercices": [
+                        2,
+                        4
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "ProgrammingI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        2,
+                        4
+                    ]
+                },
+                "MathematicalAnalysisI": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "Algebra": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "first_name": "Belinda",
+        "last_name": "Joseph",
+        "birth_date": "27 NOV 1996",
+        "year_of_study": "3",
+        "index": "1947320",
+        "courses": {
+            "2016": {
+                "AlgorithmsI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        2,
+                        3
+                    ]
+                },
+                "BasicPhysicsI": {
+                    "exercices": [
+                        2,
+                        4
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "ProgrammingI": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "MathematicalAnalysisI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "Algebra": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                }
+            },
+            "2017": {
+                "AlgorithmsII": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "BasicPhysicsII": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "ProgrammingII": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "MathematicalAnalysisII": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        2,
+                        4
+                    ]
+                },
+                "NumericalMethodsI": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        2,
+                        5
+                    ]
+                },
+                "Java": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "C++I": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                }
+            },
+            "2018": {
+                "AlgorithmsIII": {
+                    "exercices": [
+                        2,
+                        4
+                    ],
+                    "lecture": [
+                        2,
+                        4
+                    ]
+                },
+                "ProgrammingIII": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "NumericalMethodsII": {
+                    "exercices": [
+                        2,
+                        3
+                    ],
+                    "lecture": [
+                        2,
+                        3
+                    ]
+                },
+                "C++II": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "first_name": "Madison",
+        "last_name": "Bradley",
+        "birth_date": "09 JUN 1999",
+        "year_of_study": "2",
+        "index": "1583751",
+        "courses": {
+            "2018": {
+                "AlgorithmsI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "BasicPhysicsI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        2,
+                        5
+                    ]
+                },
+                "ProgrammingI": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "MathematicalAnalysisI": {
+                    "exercices": [
+                        2,
+                        4
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "Algebra": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                }
+            },
+            "2019": {
+                "AlgorithmsII": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "BasicPhysicsII": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "ProgrammingII": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "MathematicalAnalysisII": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "NumericalMethodsI": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "Java": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "C++I": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "first_name": "Christopher",
+        "last_name": "Hodges",
+        "birth_date": "07 JUN 1998",
+        "year_of_study": "3",
+        "index": "1647187",
+        "courses": {
+            "2018": {
+                "AlgorithmsI": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        2,
+                        5
+                    ]
+                },
+                "BasicPhysicsI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "ProgrammingI": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "MathematicalAnalysisI": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "Algebra": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                }
+            },
+            "2019": {
+                "AlgorithmsII": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "BasicPhysicsII": {
+                    "exercices": [
+                        2,
+                        4
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "ProgrammingII": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "MathematicalAnalysisII": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "NumericalMethodsI": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        2,
+                        3
+                    ]
+                },
+                "Java": {
+                    "exercices": [
+                        2,
+                        5
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "C++I": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                }
+            },
+            "2020": {
+                "AlgorithmsIII": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        2,
+                        5
+                    ]
+                },
+                "ProgrammingIII": {
+                    "exercices": [
+                        2,
+                        5
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "NumericalMethodsII": {
+                    "exercices": [
+                        2,
+                        4
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "C++II": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "first_name": "Stephanie",
+        "last_name": "Luna",
+        "birth_date": "01 FEB 1994",
+        "year_of_study": "2",
+        "index": "1493742",
+        "courses": {
+            "2013": {
+                "AlgorithmsI": {
+                    "exercices": [
+                        2,
+                        5
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "BasicPhysicsI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "ProgrammingI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        2,
+                        5
+                    ]
+                },
+                "MathematicalAnalysisI": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "Algebra": {
+                    "exercices": [
+                        2,
+                        5
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                }
+            },
+            "2014": {
+                "AlgorithmsII": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "BasicPhysicsII": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        2,
+                        4
+                    ]
+                },
+                "ProgrammingII": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "MathematicalAnalysisII": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "NumericalMethodsI": {
+                    "exercices": [
+                        2,
+                        3
+                    ],
+                    "lecture": [
+                        2,
+                        4
+                    ]
+                },
+                "Java": {
+                    "exercices": [
+                        2,
+                        4
+                    ],
+                    "lecture": [
+                        2,
+                        5
+                    ]
+                },
+                "C++I": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "first_name": "James",
+        "last_name": "Simmons",
+        "birth_date": "31 AUG 1997",
+        "year_of_study": "1",
+        "index": "1756907",
+        "courses": {
+            "2015": {
+                "AlgorithmsI": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "BasicPhysicsI": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        2,
+                        4
+                    ]
+                },
+                "ProgrammingI": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "MathematicalAnalysisI": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "Algebra": {
+                    "exercices": [
+                        2,
+                        3
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "first_name": "Joseph",
+        "last_name": "Taylor",
+        "birth_date": "28 OCT 1994",
+        "year_of_study": "1",
+        "index": "1943786",
+        "courses": {
+            "2012": {
+                "AlgorithmsI": {
+                    "exercices": [
+                        2,
+                        4
+                    ],
+                    "lecture": [
+                        2,
+                        4
+                    ]
+                },
+                "BasicPhysicsI": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "ProgrammingI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "MathematicalAnalysisI": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "Algebra": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        2,
+                        4
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "first_name": "Jeremy",
+        "last_name": "Hardy",
+        "birth_date": "12 AUG 1998",
+        "year_of_study": "1",
+        "index": "1639933",
+        "courses": {
+            "2016": {
+                "AlgorithmsI": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "BasicPhysicsI": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "ProgrammingI": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "MathematicalAnalysisI": {
+                    "exercices": [
+                        2,
+                        3
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "Algebra": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "first_name": "Gabriella",
+        "last_name": "May",
+        "birth_date": "21 JAN 1995",
+        "year_of_study": "1",
+        "index": "1507700",
+        "courses": {
+            "2013": {
+                "AlgorithmsI": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "BasicPhysicsI": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "ProgrammingI": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "MathematicalAnalysisI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        2,
+                        3
+                    ]
+                },
+                "Algebra": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        2,
+                        5
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "first_name": "Rachel",
+        "last_name": "Lewis",
+        "birth_date": "23 JAN 1998",
+        "year_of_study": "3",
+        "index": "1157143",
+        "courses": {
+            "2018": {
+                "AlgorithmsI": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "BasicPhysicsI": {
+                    "exercices": [
+                        2,
+                        5
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "ProgrammingI": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "MathematicalAnalysisI": {
+                    "exercices": [
+                        2,
+                        4
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "Algebra": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                }
+            },
+            "2019": {
+                "AlgorithmsII": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "BasicPhysicsII": {
+                    "exercices": [
+                        2,
+                        3
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "ProgrammingII": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "MathematicalAnalysisII": {
+                    "exercices": [
+                        2,
+                        3
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "NumericalMethodsI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "Java": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "C++I": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        2,
+                        4
+                    ]
+                }
+            },
+            "2020": {
+                "AlgorithmsIII": {
+                    "exercices": [
+                        2,
+                        3
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "ProgrammingIII": {
+                    "exercices": [
+                        2,
+                        3
+                    ],
+                    "lecture": [
+                        2,
+                        3
+                    ]
+                },
+                "NumericalMethodsII": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        2,
+                        3
+                    ]
+                },
+                "C++II": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "first_name": "Holly",
+        "last_name": "Martinez",
+        "birth_date": "27 JUN 1994",
+        "year_of_study": "3",
+        "index": "1808714",
+        "courses": {
+            "2014": {
+                "AlgorithmsI": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "BasicPhysicsI": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        2,
+                        4
+                    ]
+                },
+                "ProgrammingI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "MathematicalAnalysisI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "Algebra": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                }
+            },
+            "2015": {
+                "AlgorithmsII": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "BasicPhysicsII": {
+                    "exercices": [
+                        2,
+                        5
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "ProgrammingII": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        2,
+                        5
+                    ]
+                },
+                "MathematicalAnalysisII": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        2,
+                        4
+                    ]
+                },
+                "NumericalMethodsI": {
+                    "exercices": [
+                        2,
+                        5
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "Java": {
+                    "exercices": [
+                        2,
+                        4
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "C++I": {
+                    "exercices": [
+                        2,
+                        5
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                }
+            },
+            "2016": {
+                "AlgorithmsIII": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        2,
+                        5
+                    ]
+                },
+                "ProgrammingIII": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "NumericalMethodsII": {
+                    "exercices": [
+                        2,
+                        5
+                    ],
+                    "lecture": [
+                        2,
+                        5
+                    ]
+                },
+                "C++II": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "first_name": "Sue",
+        "last_name": "Turner",
+        "birth_date": "12 AUG 1997",
+        "year_of_study": "3",
+        "index": "1845211",
+        "courses": {
+            "2017": {
+                "AlgorithmsI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "BasicPhysicsI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "ProgrammingI": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "MathematicalAnalysisI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "Algebra": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                }
+            },
+            "2018": {
+                "AlgorithmsII": {
+                    "exercices": [
+                        2,
+                        5
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "BasicPhysicsII": {
+                    "exercices": [
+                        2,
+                        4
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "ProgrammingII": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "MathematicalAnalysisII": {
+                    "exercices": [
+                        2,
+                        4
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "NumericalMethodsI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "Java": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "C++I": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                }
+            },
+            "2019": {
+                "AlgorithmsIII": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "ProgrammingIII": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "NumericalMethodsII": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        2,
+                        3
+                    ]
+                },
+                "C++II": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "first_name": "Chris",
+        "last_name": "Garza",
+        "birth_date": "07 NOV 1994",
+        "year_of_study": "3",
+        "index": "1472992",
+        "courses": {
+            "2014": {
+                "AlgorithmsI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        2,
+                        3
+                    ]
+                },
+                "BasicPhysicsI": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "ProgrammingI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "MathematicalAnalysisI": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "Algebra": {
+                    "exercices": [
+                        2,
+                        5
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                }
+            },
+            "2015": {
+                "AlgorithmsII": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "BasicPhysicsII": {
+                    "exercices": [
+                        2,
+                        3
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "ProgrammingII": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "MathematicalAnalysisII": {
+                    "exercices": [
+                        2,
+                        3
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "NumericalMethodsI": {
+                    "exercices": [
+                        2,
+                        5
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "Java": {
+                    "exercices": [
+                        2,
+                        3
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "C++I": {
+                    "exercices": [
+                        2,
+                        4
+                    ],
+                    "lecture": [
+                        2,
+                        3
+                    ]
+                }
+            },
+            "2016": {
+                "AlgorithmsIII": {
+                    "exercices": [
+                        2,
+                        5
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "ProgrammingIII": {
+                    "exercices": [
+                        2,
+                        5
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "NumericalMethodsII": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "C++II": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        2,
+                        4
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "first_name": "Omar",
+        "last_name": "Riggs",
+        "birth_date": "23 DEC 1997",
+        "year_of_study": "3",
+        "index": "1232369",
+        "courses": {
+            "2018": {
+                "AlgorithmsI": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "BasicPhysicsI": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        2,
+                        5
+                    ]
+                },
+                "ProgrammingI": {
+                    "exercices": [
+                        2,
+                        4
+                    ],
+                    "lecture": [
+                        2,
+                        3
+                    ]
+                },
+                "MathematicalAnalysisI": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "Algebra": {
+                    "exercices": [
+                        2,
+                        3
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                }
+            },
+            "2019": {
+                "AlgorithmsII": {
+                    "exercices": [
+                        2,
+                        4
+                    ],
+                    "lecture": [
+                        2,
+                        3
+                    ]
+                },
+                "BasicPhysicsII": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "ProgrammingII": {
+                    "exercices": [
+                        2,
+                        4
+                    ],
+                    "lecture": [
+                        2,
+                        4
+                    ]
+                },
+                "MathematicalAnalysisII": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "NumericalMethodsI": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        2,
+                        3
+                    ]
+                },
+                "Java": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "C++I": {
+                    "exercices": [
+                        2,
+                        4
+                    ],
+                    "lecture": [
+                        2,
+                        5
+                    ]
+                }
+            },
+            "2020": {
+                "AlgorithmsIII": {
+                    "exercices": [
+                        2,
+                        4
+                    ],
+                    "lecture": [
+                        2,
+                        4
+                    ]
+                },
+                "ProgrammingIII": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "NumericalMethodsII": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "C++II": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "first_name": "Michael",
+        "last_name": "Savage",
+        "birth_date": "05 APR 1997",
+        "year_of_study": "2",
+        "index": "1999002",
+        "courses": {
+            "2016": {
+                "AlgorithmsI": {
+                    "exercices": [
+                        2,
+                        4
+                    ],
+                    "lecture": [
+                        2,
+                        4
+                    ]
+                },
+                "BasicPhysicsI": {
+                    "exercices": [
+                        2,
+                        3
+                    ],
+                    "lecture": [
+                        2,
+                        5
+                    ]
+                },
+                "ProgrammingI": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "MathematicalAnalysisI": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "Algebra": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        2,
+                        5
+                    ]
+                }
+            },
+            "2017": {
+                "AlgorithmsII": {
+                    "exercices": [
+                        2,
+                        4
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "BasicPhysicsII": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        2,
+                        5
+                    ]
+                },
+                "ProgrammingII": {
+                    "exercices": [
+                        2,
+                        4
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "MathematicalAnalysisII": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "NumericalMethodsI": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "Java": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "C++I": {
+                    "exercices": [
+                        2,
+                        4
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "first_name": "Dawn",
+        "last_name": "Novak",
+        "birth_date": "03 AUG 1998",
+        "year_of_study": "2",
+        "index": "1424766",
+        "courses": {
+            "2017": {
+                "AlgorithmsI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "BasicPhysicsI": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        2,
+                        3
+                    ]
+                },
+                "ProgrammingI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        2,
+                        4
+                    ]
+                },
+                "MathematicalAnalysisI": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "Algebra": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                }
+            },
+            "2018": {
+                "AlgorithmsII": {
+                    "exercices": [
+                        2,
+                        4
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "BasicPhysicsII": {
+                    "exercices": [
+                        2,
+                        5
+                    ],
+                    "lecture": [
+                        2,
+                        4
+                    ]
+                },
+                "ProgrammingII": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "MathematicalAnalysisII": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "NumericalMethodsI": {
+                    "exercices": [
+                        2,
+                        5
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "Java": {
+                    "exercices": [
+                        2,
+                        5
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "C++I": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        2,
+                        5
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "first_name": "Shannon",
+        "last_name": "Cohen",
+        "birth_date": "08 APR 1997",
+        "year_of_study": "2",
+        "index": "1652449",
+        "courses": {
+            "2016": {
+                "AlgorithmsI": {
+                    "exercices": [
+                        2,
+                        5
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "BasicPhysicsI": {
+                    "exercices": [
+                        2,
+                        5
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "ProgrammingI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "MathematicalAnalysisI": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        2,
+                        4
+                    ]
+                },
+                "Algebra": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                }
+            },
+            "2017": {
+                "AlgorithmsII": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "BasicPhysicsII": {
+                    "exercices": [
+                        2,
+                        3
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "ProgrammingII": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "MathematicalAnalysisII": {
+                    "exercices": [
+                        2,
+                        5
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "NumericalMethodsI": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "Java": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "C++I": {
+                    "exercices": [
+                        2,
+                        5
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "first_name": "Andrew",
+        "last_name": "Cannon",
+        "birth_date": "14 SEP 1995",
+        "year_of_study": "1",
+        "index": "1018730",
+        "courses": {
+            "2013": {
+                "AlgorithmsI": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        2,
+                        3
+                    ]
+                },
+                "BasicPhysicsI": {
+                    "exercices": [
+                        2,
+                        5
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "ProgrammingI": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "MathematicalAnalysisI": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "Algebra": {
+                    "exercices": [
+                        2,
+                        4
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "first_name": "Timothy",
+        "last_name": "Gross",
+        "birth_date": "05 OCT 1995",
+        "year_of_study": "3",
+        "index": "1976486",
+        "courses": {
+            "2015": {
+                "AlgorithmsI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "BasicPhysicsI": {
+                    "exercices": [
+                        2,
+                        5
+                    ],
+                    "lecture": [
+                        2,
+                        5
+                    ]
+                },
+                "ProgrammingI": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        2,
+                        3
+                    ]
+                },
+                "MathematicalAnalysisI": {
+                    "exercices": [
+                        2,
+                        5
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "Algebra": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        2,
+                        5
+                    ]
+                }
+            },
+            "2016": {
+                "AlgorithmsII": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "BasicPhysicsII": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "ProgrammingII": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "MathematicalAnalysisII": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "NumericalMethodsI": {
+                    "exercices": [
+                        2,
+                        5
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "Java": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        2,
+                        3
+                    ]
+                },
+                "C++I": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                }
+            },
+            "2017": {
+                "AlgorithmsIII": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "ProgrammingIII": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        2,
+                        3
+                    ]
+                },
+                "NumericalMethodsII": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "C++II": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "first_name": "Tony",
+        "last_name": "Knight",
+        "birth_date": "18 NOV 1995",
+        "year_of_study": "2",
+        "index": "1591682",
+        "courses": {
+            "2014": {
+                "AlgorithmsI": {
+                    "exercices": [
+                        2,
+                        4
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "BasicPhysicsI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "ProgrammingI": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        2,
+                        3
+                    ]
+                },
+                "MathematicalAnalysisI": {
+                    "exercices": [
+                        2,
+                        3
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "Algebra": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                }
+            },
+            "2015": {
+                "AlgorithmsII": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "BasicPhysicsII": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        2,
+                        3
+                    ]
+                },
+                "ProgrammingII": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "MathematicalAnalysisII": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        2,
+                        4
+                    ]
+                },
+                "NumericalMethodsI": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "Java": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        2,
+                        5
+                    ]
+                },
+                "C++I": {
+                    "exercices": [
+                        2,
+                        3
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "first_name": "Rachel",
+        "last_name": "Marshall",
+        "birth_date": "19 JAN 1996",
+        "year_of_study": "2",
+        "index": "1993800",
+        "courses": {
+            "2015": {
+                "AlgorithmsI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "BasicPhysicsI": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "ProgrammingI": {
+                    "exercices": [
+                        2,
+                        4
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "MathematicalAnalysisI": {
+                    "exercices": [
+                        2,
+                        3
+                    ],
+                    "lecture": [
+                        2,
+                        5
+                    ]
+                },
+                "Algebra": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                }
+            },
+            "2016": {
+                "AlgorithmsII": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "BasicPhysicsII": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "ProgrammingII": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "MathematicalAnalysisII": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        2,
+                        4
+                    ]
+                },
+                "NumericalMethodsI": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "Java": {
+                    "exercices": [
+                        2,
+                        5
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "C++I": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "first_name": "Dorothy",
+        "last_name": "Thompson",
+        "birth_date": "23 JUN 1998",
+        "year_of_study": "1",
+        "index": "1762597",
+        "courses": {
+            "2016": {
+                "AlgorithmsI": {
+                    "exercices": [
+                        2,
+                        5
+                    ],
+                    "lecture": [
+                        2,
+                        4
+                    ]
+                },
+                "BasicPhysicsI": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        2,
+                        5
+                    ]
+                },
+                "ProgrammingI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        2,
+                        3
+                    ]
+                },
+                "MathematicalAnalysisI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        2,
+                        3
+                    ]
+                },
+                "Algebra": {
+                    "exercices": [
+                        2,
+                        5
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "first_name": "Michelle",
+        "last_name": "Schmidt",
+        "birth_date": "03 MAR 1995",
+        "year_of_study": "2",
+        "index": "1063562",
+        "courses": {
+            "2014": {
+                "AlgorithmsI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "BasicPhysicsI": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "ProgrammingI": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "MathematicalAnalysisI": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "Algebra": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                }
+            },
+            "2015": {
+                "AlgorithmsII": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "BasicPhysicsII": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        2,
+                        4
+                    ]
+                },
+                "ProgrammingII": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "MathematicalAnalysisII": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "NumericalMethodsI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "Java": {
+                    "exercices": [
+                        2,
+                        5
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "C++I": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        2,
+                        4
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "first_name": "Elizabeth",
+        "last_name": "Hernandez",
+        "birth_date": "15 JUN 1997",
+        "year_of_study": "2",
+        "index": "1843531",
+        "courses": {
+            "2016": {
+                "AlgorithmsI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        2,
+                        5
+                    ]
+                },
+                "BasicPhysicsI": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "ProgrammingI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "MathematicalAnalysisI": {
+                    "exercices": [
+                        2,
+                        5
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "Algebra": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                }
+            },
+            "2017": {
+                "AlgorithmsII": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        2,
+                        4
+                    ]
+                },
+                "BasicPhysicsII": {
+                    "exercices": [
+                        2,
+                        5
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "ProgrammingII": {
+                    "exercices": [
+                        2,
+                        4
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "MathematicalAnalysisII": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "NumericalMethodsI": {
+                    "exercices": [
+                        2,
+                        5
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "Java": {
+                    "exercices": [
+                        2,
+                        3
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "C++I": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        2,
+                        4
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "first_name": "Kayla",
+        "last_name": "Watts",
+        "birth_date": "22 NOV 1997",
+        "year_of_study": "1",
+        "index": "1312633",
+        "courses": {
+            "2015": {
+                "AlgorithmsI": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "BasicPhysicsI": {
+                    "exercices": [
+                        2,
+                        5
+                    ],
+                    "lecture": [
+                        2,
+                        3
+                    ]
+                },
+                "ProgrammingI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "MathematicalAnalysisI": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "Algebra": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        2,
+                        5
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "first_name": "Adam",
+        "last_name": "Gonzales",
+        "birth_date": "18 AUG 1998",
+        "year_of_study": "2",
+        "index": "1506203",
+        "courses": {
+            "2017": {
+                "AlgorithmsI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "BasicPhysicsI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        2,
+                        3
+                    ]
+                },
+                "ProgrammingI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "MathematicalAnalysisI": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "Algebra": {
+                    "exercices": [
+                        2,
+                        5
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                }
+            },
+            "2018": {
+                "AlgorithmsII": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "BasicPhysicsII": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "ProgrammingII": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "MathematicalAnalysisII": {
+                    "exercices": [
+                        2,
+                        5
+                    ],
+                    "lecture": [
+                        2,
+                        5
+                    ]
+                },
+                "NumericalMethodsI": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "Java": {
+                    "exercices": [
+                        2,
+                        4
+                    ],
+                    "lecture": [
+                        2,
+                        3
+                    ]
+                },
+                "C++I": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "first_name": "Zachary",
+        "last_name": "Medina",
+        "birth_date": "08 DEC 1998",
+        "year_of_study": "2",
+        "index": "1358176",
+        "courses": {
+            "2017": {
+                "AlgorithmsI": {
+                    "exercices": [
+                        2,
+                        5
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "BasicPhysicsI": {
+                    "exercices": [
+                        2,
+                        3
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "ProgrammingI": {
+                    "exercices": [
+                        2,
+                        5
+                    ],
+                    "lecture": [
+                        2,
+                        5
+                    ]
+                },
+                "MathematicalAnalysisI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "Algebra": {
+                    "exercices": [
+                        2,
+                        4
+                    ],
+                    "lecture": [
+                        2,
+                        3
+                    ]
+                }
+            },
+            "2018": {
+                "AlgorithmsII": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        2,
+                        5
+                    ]
+                },
+                "BasicPhysicsII": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "ProgrammingII": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "MathematicalAnalysisII": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "NumericalMethodsI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "Java": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "C++I": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "first_name": "Cody",
+        "last_name": "Price",
+        "birth_date": "14 APR 1999",
+        "year_of_study": "2",
+        "index": "1943071",
+        "courses": {
+            "2018": {
+                "AlgorithmsI": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        2,
+                        3
+                    ]
+                },
+                "BasicPhysicsI": {
+                    "exercices": [
+                        2,
+                        5
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "ProgrammingI": {
+                    "exercices": [
+                        2,
+                        4
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "MathematicalAnalysisI": {
+                    "exercices": [
+                        2,
+                        5
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "Algebra": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        2,
+                        4
+                    ]
+                }
+            },
+            "2019": {
+                "AlgorithmsII": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "BasicPhysicsII": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "ProgrammingII": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        2,
+                        3
+                    ]
+                },
+                "MathematicalAnalysisII": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "NumericalMethodsI": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        2,
+                        3
+                    ]
+                },
+                "Java": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "C++I": {
+                    "exercices": [
+                        2,
+                        5
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "first_name": "Valerie",
+        "last_name": "Odonnell",
+        "birth_date": "13 JUN 1994",
+        "year_of_study": "3",
+        "index": "1006348",
+        "courses": {
+            "2014": {
+                "AlgorithmsI": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "BasicPhysicsI": {
+                    "exercices": [
+                        2,
+                        4
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "ProgrammingI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "MathematicalAnalysisI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        2,
+                        5
+                    ]
+                },
+                "Algebra": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                }
+            },
+            "2015": {
+                "AlgorithmsII": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "BasicPhysicsII": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "ProgrammingII": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "MathematicalAnalysisII": {
+                    "exercices": [
+                        2,
+                        5
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "NumericalMethodsI": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "Java": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "C++I": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                }
+            },
+            "2016": {
+                "AlgorithmsIII": {
+                    "exercices": [
+                        2,
+                        3
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "ProgrammingIII": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "NumericalMethodsII": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "C++II": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "first_name": "Kristina",
+        "last_name": "Beck",
+        "birth_date": "04 MAR 1998",
+        "year_of_study": "1",
+        "index": "1491644",
+        "courses": {
+            "2016": {
+                "AlgorithmsI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "BasicPhysicsI": {
+                    "exercices": [
+                        2,
+                        3
+                    ],
+                    "lecture": [
+                        2,
+                        4
+                    ]
+                },
+                "ProgrammingI": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "MathematicalAnalysisI": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        2,
+                        3
+                    ]
+                },
+                "Algebra": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "first_name": "Christopher",
+        "last_name": "Hardy",
+        "birth_date": "19 SEP 1996",
+        "year_of_study": "3",
+        "index": "1238904",
+        "courses": {
+            "2016": {
+                "AlgorithmsI": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        2,
+                        4
+                    ]
+                },
+                "BasicPhysicsI": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "ProgrammingI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "MathematicalAnalysisI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "Algebra": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                }
+            },
+            "2017": {
+                "AlgorithmsII": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "BasicPhysicsII": {
+                    "exercices": [
+                        2,
+                        4
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "ProgrammingII": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        2,
+                        3
+                    ]
+                },
+                "MathematicalAnalysisII": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        2,
+                        4
+                    ]
+                },
+                "NumericalMethodsI": {
+                    "exercices": [
+                        2,
+                        5
+                    ],
+                    "lecture": [
+                        2,
+                        5
+                    ]
+                },
+                "Java": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                },
+                "C++I": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        5
+                    ]
+                }
+            },
+            "2018": {
+                "AlgorithmsIII": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        2,
+                        5
+                    ]
+                },
+                "ProgrammingIII": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "NumericalMethodsII": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "C++II": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        2,
+                        4
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "first_name": "Jackie",
+        "last_name": "Francis",
+        "birth_date": "22 AUG 1994",
+        "year_of_study": "2",
+        "index": "1083755",
+        "courses": {
+            "2013": {
+                "AlgorithmsI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        2,
+                        4
+                    ]
+                },
+                "BasicPhysicsI": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "ProgrammingI": {
+                    "exercices": [
+                        2,
+                        4
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "MathematicalAnalysisI": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "Algebra": {
+                    "exercices": [
+                        3
+                    ],
+                    "lecture": [
+                        2,
+                        5
+                    ]
+                }
+            },
+            "2014": {
+                "AlgorithmsII": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "BasicPhysicsII": {
+                    "exercices": [
+                        2,
+                        3
+                    ],
+                    "lecture": [
+                        4
+                    ]
+                },
+                "ProgrammingII": {
+                    "exercices": [
+                        4
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "MathematicalAnalysisII": {
+                    "exercices": [
+                        2,
+                        3
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "NumericalMethodsI": {
+                    "exercices": [
+                        5
+                    ],
+                    "lecture": [
+                        3
+                    ]
+                },
+                "Java": {
+                    "exercices": [
+                        2,
+                        3
+                    ],
+                    "lecture": [
+                        2,
+                        3
+                    ]
+                },
+                "C++I": {
+                    "exercices": [
+                        2,
+                        5
+                    ],
+                    "lecture": [
+                        2,
+                        4
+                    ]
+                }
+            }
+        }
+    }
+]

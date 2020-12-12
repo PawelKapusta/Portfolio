@@ -1,0 +1,83 @@
+@import url(../fonts.css);
+
+@media (min-width: 600px) {
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+    background: white;
+  }
+}
+
+
+:root {
+  --robotoFont: 'Roboto', cursive;
+  --title-color: #141313;
+  --gradient-logo: linear-gradient(to top left, #ffcc00 0%, #660066 100%);
+  --gradient-color: linear-gradient(to top, #33ccff 0%, #9933ff 100%);
+  --shadow-color: 0px 10px 30px rgba(118, 85, 225, 0.3);
+  --box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+}
+
+html, body {
+  margin: 0%;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.header_area .main-menu .navbar {
+  padding: 0 1rem;
+}
+.header_area .main-menu .navbar .navbar-nav li a > img{
+  width: 3rem;
+  height: 3rem;
+  object-fit: cover;
+}
+.header_area .main-menu .navbar .navbar-brand {
+  background: var(--gradient-logo);
+  font-weight: 500;
+  font-size: xx-large;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  padding: 0 1.5rem 0 6rem;
+}
+
+.header_area .main-menu .navbar-nav {
+  padding: .8rem 0rem 0 0;
+}
+
+.header_area .main-menu .nav-item .nav-link {
+  font-size: 1.2rem;
+  font-family: var(--robotoFont);
+  text-transform: uppercase;
+  padding: 0 1rem .2rem 4rem;
+  color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a {
+  font-weight: revert;
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+
+.projectsIntro{
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: montserrat, sans-serif;
+}
