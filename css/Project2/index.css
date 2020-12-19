@@ -28,6 +28,7 @@ html, body {
   z-index: 1;
   align-content: center;
   text-align: center;
+
 }
 
 .header_area .main-menu .navbar {
@@ -98,4 +99,16 @@ html, body {
 table, th, td {
   border-collapse: collapse;
   max-width: 5%;
+}
+.list-group{
+  width: 50%;
+  margin: auto;
+}
+.studentsInYear, .alert{
+  width: 30%;
+  margin: auto;
+}
+#ListOfStudentsInChosenYearAndCourse{
+  width: 70%;
+  margin: auto;
 }

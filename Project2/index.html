@@ -65,9 +65,7 @@
 </header>
 <br><br><br>
 <div class="d-inline-flex p-2" id="mainTitle">
-
    <p class="line-1 anim-typewriter"><b>Students</b></p>
-
  </div>
 
 <main class="site-main">
@@ -77,13 +75,83 @@
  </div>
  <div class="container">
   <table id="table" class="table table-striped table-bordered nowrap" style="width:100%">
-
   </table>
  </div>
+<div><img src="../photos/optionsPhoto.png" alt="options_image"> Below you have some options. What would you like to do?</div>
+ <br>
+ <div class="list-group">
+  <a href="#studentsInYear" class="list-group-item list-group-item-action " aria-current="true">
+   Get list of students in chosen year and course
+  </a>
+  <a href="#" class="list-group-item list-group-item-action">Count average for student in chosen year</a>
+  <a href="#" class="list-group-item list-group-item-action">Count average for chosen course in chosen year</a>
+ </div>
+ <br><br>
+
+ <section id="studentGradeInChosenYear">
+  <div>List of students in chosen year and course</div>
+   <img src="../photos/icons8-name-64.png" alt="name_img">
+  <div id="optionsForFirstOperation">
+  <select class="form-select" aria-label="Default select example" id="studentGradeInChosenYear_year">
+   <option value="0">----</option>
+   <option value="1">2012</option>
+   <option value="2">2013</option>
+   <option value="3">2014</option>
+   <option value="4">2015</option>
+   <option value="5">2016</option>
+   <option value="6">2017</option>
+   <option value="7">2018</option>
+   <option value="8">2019</option>
+   <option value="9">2020</option>
+  </select>
+  <select class="form-select" aria-label="Default select example" id="studentGradeInChosenYear_course">
+   <option value="0">----</option>
+   <option value="1">Algebra</option>
+   <option value="2">AlgorithmsI</option>
+   <option value="3">AlgorithmsII</option>
+   <option value="4">AlgorithmsIII</option>
+   <option value="5">BasicsPhysicsI</option>
+   <option value="6">BasicsPhysicsII</option>
+   <option value="7">C++I</option>
+   <option value="8">C++II</option>
+   <option value="9">Java</option>
+   <option value="10">MathematicalAnalysisI</option>
+   <option value="11">MathematicalAnalysisII</option>
+   <option value="12">NumericalMethodsI</option>
+   <option value="13">NumericalMethodsII</option>
+   <option value="14">ProgrammingI</option>
+   <option value="15">ProgrammingII</option>
+   <option value="16">ProgrammingIII</option>
+  </select>
+  </div>
+  <div class="alert alert-danger" role="alert" id="noStudentsAlert">
+   No students in chosen year and course
+  </div>
+  <div class="container">
+   <table id="ListOfStudentsInChosenYearAndCourse" class="table table-striped table-bordered nowrap" style="width:100%">
+   </table>
+  </div>
+ </section>
+ <br><br><br>
+ <section class="studentGradeInChosenYear">
+  <div>Count average for student in chosen year</div>
+  <div class="form-floating mb-3">
+   <input id="floatingInput" type="text" class="form-control" placeholder="First name" aria-label="First Name" aria-describedby="basic-addon1">
+
+  </div>
+  <div class="form-floating mb-3">
+   <input id="floatingInput2" type="text" class="form-control" placeholder="Last name" aria-label="Last Name" aria-describedby="basic-addon1">
+  </div>
+  <div class="form-floating mb-3">
+   <input id="floatingInput3" type="text" class="form-control" placeholder="Student index" aria-label="Students index" aria-describedby="basic-addon1">
+  </div>
+
+ </section>
+ <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
 </main>
-
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 <footer class="footer-area">
  <div class="container">
