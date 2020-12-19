@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
-    <file url="PROJECT" libraries="{smtp}" />
+    <file url="PROJECT" libraries="{bootstrap, dataTables.bootstrap, dataTables.fixedHeader, dataTables.responsive, fixedHeader.bootstrap, jquery-3.4.1.slim, jquery-3.5.1, jquery.dataTables, popper.js, smtp}" />
     <includedPredefinedLibrary name="Node.js Core" />
   </component>
 </project>

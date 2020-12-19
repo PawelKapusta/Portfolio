@@ -18,7 +18,8 @@
 
  <title>Portfolio</title>
  <link rel="stylesheet" href="../css/bootstrap.min.css">
- <link rel="stylesheet" href="../css/index.css">
+ <link rel="stylesheet" href="../css/Project2/index.css">
+
 </head>
 <body>
 
@@ -62,16 +63,23 @@
   </nav>
  </div>
 </header>
+<br><br><br>
+<div class="d-inline-flex p-2" id="mainTitle">
 
+   <p class="line-1 anim-typewriter"><b>Students</b></p>
+
+ </div>
 
 <main class="site-main">
  <div class="spinner-border"
       role="status" id="loading">
   <span class="sr-only">Loading...</span>
  </div>
- <table class="table" id="table">
+ <div class="container">
+  <table id="table" class="table table-striped table-bordered nowrap" style="width:100%">
 
- </table>
+  </table>
+ </div>
 
 
 </main>
@@ -107,41 +115,6 @@
 <script src="../js/project2.js"></script>
 <script src="../js/jquery-3.5.1.min.js"></script>
 <script src="../js/bootstrap.min.js"></script>
-
-<script async>
-  window.onscroll = function () {
-    myFunction()
-  };
-
-  const navbar = document.getElementById("navbar");
-  const sticky = navbar.offsetTop;
-
-  function myFunction() {
-    if (window.pageYOffset >= sticky) {
-      navbar.classList.add("sticky")
-    } else {
-      navbar.classList.remove("sticky");
-    }
-  }
-
-  // let students = [];
-  //
-  // function loadJSON() {
-  //   var xobj = new XMLHttpRequest();
-  //   xobj.onreadystatechange = function () {
-  //     if (xobj.readyState === 4 && xobj.status === 200) {
-  //       var obj = JSON.parse(this.responseText);
-  //       for (let i = 0; i < obj.length; i++) {
-  //         students.push(obj[i]);
-  //       }
-  //     }
-  //   };
-  //   xobj.open('GET', 'data.json', true);
-  //   xobj.send();
-  // }
-// loadJSON();
-
-
-</script>
+<script src="../js/stickyNavbar.js"></script>
 </body>
 </html>
