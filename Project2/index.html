@@ -63,7 +63,7 @@
   </nav>
  </div>
 </header>
-<br><br><br>
+
 <div class="d-inline-flex p-2" id="mainTitle">
  <p class="line-1 anim-typewriter"><b>Students</b></p>
 </div>
@@ -77,138 +77,158 @@
   <table id="table" class="table table-striped table-bordered nowrap" style="width:100%">
   </table>
  </div>
- <div><img src="../photos/optionsPhoto.png" alt="options_image"> Below you have some options. What would you like to do?
- </div>
- <br>
- <div class="list-group">
-  <a href="#listOfStudentsInCourseInYear_year" class="list-group-item list-group-item-action " aria-current="true">
-   Get list of students in chosen year and course
-  </a>
-  <a href="#studentAverageInYear_id" class="list-group-item list-group-item-action">Count average for student in
-   chosen year</a>
-  <a href="#averageForCourseInYear_id" class="list-group-item list-group-item-action">Count average for chosen course in chosen year</a>
- </div>
- <br><br>
+ <div class="optionsFeatures">
+  <div class="card text-center">
+   <div class="card-body">
+    <h3 class="card-title">Below you have some options</h3>
+    <img src="../photos/undraw_functions_egi3.png" alt="options_image">
+    <h2 class="card-text">What would you like to do?</h2>
+   </div>
+  </div>
+  <br>
+  <div class="list-group">
+   <a href="#titleForFirstFeature_id" class="list-group-item list-group-item-action " aria-current="true">
+    Get list of students in chosen year and course
+   </a>
+   <a href="#studentAverageInYear_id" class="list-group-item list-group-item-action">Count average for student in
+    chosen year</a>
+   <a href="#averageForCourseInYear_id" class="list-group-item list-group-item-action">Count average for chosen course
+    in chosen year</a>
+  </div>
+  <br><br>
+  <div class="titleForFirstFeature" id="titleForFirstFeature_id">List of students in chosen year and course</div>
+  <img src="../photos/undraw_Followers_re_6k3g.png" alt="name_img" id="titleForFirstFeature_img">
+  <section id="listOfStudentsInCourseInYear">
+   <div id="optionsForFirstOperation">
+    <select class="form-select" aria-label="Default select example" id="listOfStudentsInCourseInYear_year">
+     <option value="0">----</option>
+     <option value="1">2012</option>
+     <option value="2">2013</option>
+     <option value="3">2014</option>
+     <option value="4">2015</option>
+     <option value="5">2016</option>
+     <option value="6">2017</option>
+     <option value="7">2018</option>
+     <option value="8">2019</option>
+     <option value="9">2020</option>
+    </select>
+    <select class="form-select" aria-label="Default select example" id="listOfStudentsInCourseInYear_course">
+     <option value="0">----</option>
+     <option value="1">Algebra</option>
+     <option value="2">AlgorithmsI</option>
+     <option value="3">AlgorithmsII</option>
+     <option value="4">AlgorithmsIII</option>
+     <option value="5">BasicPhysicsI</option>
+     <option value="6">BasicPhysicsII</option>
+     <option value="7">C++I</option>
+     <option value="8">C++II</option>
+     <option value="9">Java</option>
+     <option value="10">MathematicalAnalysisI</option>
+     <option value="11">MathematicalAnalysisII</option>
+     <option value="12">NumericalMethodsI</option>
+     <option value="13">NumericalMethodsII</option>
+     <option value="14">ProgrammingI</option>
+     <option value="15">ProgrammingII</option>
+     <option value="16">ProgrammingIII</option>
+    </select>
+   </div>
+   <br>
+   <div class="alert alert-danger" role="alert" id="noStudentsAlert">
+    <img src="../photos/icons8-high-risk-30.png" alt="alert_error_img"><b>
+    No students in chosen year and course.
+    Please chose another one!
+   </b>
+   </div>
+   <div class="container">
+    <table id="ListOfStudentsInChosenYearAndCourse" class="table table-striped table-bordered nowrap"
+           style="width:100%">
+    </table>
+   </div>
+  </section>
+  <br><br><br>
+  <section class="studentAverageInYear" id="studentAverageInYear_id">
+   <div id="studentAverageInYear_title">Count average for student in chosen year</div>
+   <img src="../photos/undraw_education_f8ru.png" alt="name_img" id="studentAverageInYear_img">
+   <div id="optionsForSecondOperation">
+    <select class="form-select" aria-label="Default select example" id="studentAverageInYear_name">
+     <option value="0">----</option>
+    </select>
+    <select class="form-select" aria-label="Default select example" id="studentAverageInYear_year">
+     <option value="0">----</option>
+     <option value="1">2012</option>
+     <option value="2">2013</option>
+     <option value="3">2014</option>
+     <option value="4">2015</option>
+     <option value="5">2016</option>
+     <option value="6">2017</option>
+     <option value="7">2018</option>
+     <option value="8">2019</option>
+     <option value="9">2020</option>
+    </select>
+   </div>
+   <br>
+   <div id="averageInYear">
+    <h1 id="printAverage"></h1>
+   </div>
+   <div class="alert alert-danger" role="alert" id="notStudyAlert">
+    <img src="../photos/icons8-high-risk-30.png" alt="alert_error_img"><b>
+    Chosen student did not study in this year.
+    Please chose another one!
+   </b>
+   </div>
+  </section>
+  <br><br><br>
+  <section class="averageForCourseInYear" id="averageForCourseInYear_id">
+   <div id="averageForCourseInYear_title">Count average for chosen course in chosen year</div>
+   <img src="../photos/undraw_report_mx0a.png" alt="name_img" id="averageForCourseInYear_img">
+   <div id="optionsForThirdOperation">
+    <select class="form-select" aria-label="Default select example" id="averageForCourseInYear_course">
+     <option value="0">----</option>
+     <option value="1">Algebra</option>
+     <option value="2">AlgorithmsI</option>
+     <option value="3">AlgorithmsII</option>
+     <option value="4">AlgorithmsIII</option>
+     <option value="5">BasicPhysicsI</option>
+     <option value="6">BasicPhysicsII</option>
+     <option value="7">C++I</option>
+     <option value="8">C++II</option>
+     <option value="9">Java</option>
+     <option value="10">MathematicalAnalysisI</option>
+     <option value="11">MathematicalAnalysisII</option>
+     <option value="12">NumericalMethodsI</option>
+     <option value="13">NumericalMethodsII</option>
+     <option value="14">ProgrammingI</option>
+     <option value="15">ProgrammingII</option>
+     <option value="16">ProgrammingIII</option>
+    </select>
+    <select class="form-select" aria-label="Default select example" id="averageForCourseInYear_year">
+     <option value="0">----</option>
+     <option value="1">2012</option>
+     <option value="2">2013</option>
+     <option value="3">2014</option>
+     <option value="4">2015</option>
+     <option value="5">2016</option>
+     <option value="6">2017</option>
+     <option value="7">2018</option>
+     <option value="8">2019</option>
+     <option value="9">2020</option>
+    </select>
+   </div>
+   <br>
+   <div id="averageCourseInYear_div">
+    <h1 id="printAverageCourse"></h1>
+   </div>
+   <div class="alert alert-danger" role="alert" id="courseNotExistInThisYear">
+    <img src="../photos/icons8-high-risk-30.png" alt="alert_error_img"><b>
+    The chosen course did not exist in chosen year.
+    Please choose another one!
+   </b>
 
- <section id="listOfStudentsInCourseInYear">
-  <div>List of students in chosen year and course</div>
-  <img src="../photos/icons8-name-64.png" alt="name_img">
-  <div id="optionsForFirstOperation">
-   <select class="form-select" aria-label="Default select example" id="listOfStudentsInCourseInYear_year">
-    <option value="0">----</option>
-    <option value="1">2012</option>
-    <option value="2">2013</option>
-    <option value="3">2014</option>
-    <option value="4">2015</option>
-    <option value="5">2016</option>
-    <option value="6">2017</option>
-    <option value="7">2018</option>
-    <option value="8">2019</option>
-    <option value="9">2020</option>
-   </select>
-   <select class="form-select" aria-label="Default select example" id="listOfStudentsInCourseInYear_course">
-    <option value="0">----</option>
-    <option value="1">Algebra</option>
-    <option value="2">AlgorithmsI</option>
-    <option value="3">AlgorithmsII</option>
-    <option value="4">AlgorithmsIII</option>
-    <option value="5">BasicPhysicsI</option>
-    <option value="6">BasicPhysicsII</option>
-    <option value="7">C++I</option>
-    <option value="8">C++II</option>
-    <option value="9">Java</option>
-    <option value="10">MathematicalAnalysisI</option>
-    <option value="11">MathematicalAnalysisII</option>
-    <option value="12">NumericalMethodsI</option>
-    <option value="13">NumericalMethodsII</option>
-    <option value="14">ProgrammingI</option>
-    <option value="15">ProgrammingII</option>
-    <option value="16">ProgrammingIII</option>
-   </select>
-  </div>
-  <div class="alert alert-danger" role="alert" id="noStudentsAlert">
-   No students in chosen year and course.
-   Please chose another one!
-  </div>
-  <div class="container">
-   <table id="ListOfStudentsInChosenYearAndCourse" class="table table-striped table-bordered nowrap" style="width:100%">
-   </table>
-  </div>
- </section>
- <br><br><br>
- <section class="studentAverageInYear" id="studentAverageInYear_id">
-  <div>Count average for student in chosen year</div>
-  <div id="optionsForSecondOperation">
-   <select class="form-select" aria-label="Default select example" id="studentAverageInYear_name">
-    <option value="0">----</option>
-   </select>
-   <select class="form-select" aria-label="Default select example" id="studentAverageInYear_year">
-    <option value="0">----</option>
-    <option value="1">2012</option>
-    <option value="2">2013</option>
-    <option value="3">2014</option>
-    <option value="4">2015</option>
-    <option value="5">2016</option>
-    <option value="6">2017</option>
-    <option value="7">2018</option>
-    <option value="8">2019</option>
-    <option value="9">2020</option>
-   </select>
-  </div>
-  <div id="averageInYear">
-   <h1 id="printAverage"></h1>
-  </div>
-  <div class="alert alert-danger" role="alert" id="notStudyAlert">
-   Chosen student did not study in this year.
-   Please chose another one!
-  </div>
- </section>
- <br><br><br><br><br><br><br><br><br><br>
- <section class="averageForCourseInYear" id="averageForCourseInYear_id">
-  <div>Count average for chosen course in chosen year</div>
-  <div id="optionsForThirdOperation">
-   <select class="form-select" aria-label="Default select example" id="averageForCourseInYear_course">
-    <option value="0">----</option>
-    <option value="1">Algebra</option>
-    <option value="2">AlgorithmsI</option>
-    <option value="3">AlgorithmsII</option>
-    <option value="4">AlgorithmsIII</option>
-    <option value="5">BasicPhysicsI</option>
-    <option value="6">BasicPhysicsII</option>
-    <option value="7">C++I</option>
-    <option value="8">C++II</option>
-    <option value="9">Java</option>
-    <option value="10">MathematicalAnalysisI</option>
-    <option value="11">MathematicalAnalysisII</option>
-    <option value="12">NumericalMethodsI</option>
-    <option value="13">NumericalMethodsII</option>
-    <option value="14">ProgrammingI</option>
-    <option value="15">ProgrammingII</option>
-    <option value="16">ProgrammingIII</option>
-   </select>
-   <select class="form-select" aria-label="Default select example" id="averageForCourseInYear_year">
-    <option value="0">----</option>
-    <option value="1">2012</option>
-    <option value="2">2013</option>
-    <option value="3">2014</option>
-    <option value="4">2015</option>
-    <option value="5">2016</option>
-    <option value="6">2017</option>
-    <option value="7">2018</option>
-    <option value="8">2019</option>
-    <option value="9">2020</option>
-   </select>
-  </div>
-  <div id="averageCourseInYear_div">
-   <h1 id="printAverageCourse"></h1>
-  </div>
-  <div class="alert alert-danger" role="alert" id="courseNotExistInThisYear">
-   The chosen course did not exist in chosen year.
-   Please chose another one!
-  </div>
- </section>
+   </div>
+  </section>
+ </div>
 </main>
-<br><br><br><br><br><br><br><br><br><br><br>
+
 
 <footer class="footer-area">
  <div class="container">

@@ -149,7 +149,6 @@ class Helper {
 
   getStudent(first_name, last_name, index) {
     let student = this.studentsArray.filter(student => student.first_name === first_name && student.last_name === last_name && student.index === index);
-    console.log('finder: ', student);
     return student;
   }
 }
