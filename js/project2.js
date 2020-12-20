@@ -1,11 +1,7 @@
-'use strict';
-
 class Helper {
   constructor() {
     this.studentsArray = [];
-    this.yearsOfStudying = [];
     this.lessons = [];
-
   }
 
   async getData(url) {
@@ -43,64 +39,55 @@ class Helper {
   }
 
   getAverageForStudentAllYears(student) {
+    let years = student['courses'];
+    let yearsTab = []
 
-  }
-
-  __getAverage(grades = []) {
-    let sum = 0;
-    let numberOfGrades = grades.length;
-    for (var i = 0; i < numberOfGrades; i++) {
-      sum += grades[i];
+    for (let year in years) {
+      yearsTab.push(year);
     }
-    let average = (sum / numberOfGrades)
-    return Number(Math.round(average + 'e2') + 'e-2');
-
-  }
-
-  getAverageForStudentInYear(student, year) {
-    // let grades = [];
-    //
-    // if (!student['courses'][year]) {
-    //   showAverageAlert();
-    // }
-    // let courses = student['courses'][year];
-    // console.log(courses);
-    //
-    // var kursy = [];
-    // for (var kurs in courses) {
-    //   kursy.push(kurs);
-    //   // console.log(kurs);
-    // }
-    //
-    // for (var j = 0; j < courses.length; j++) {
-    //   console.log("cwiczenia " + student['courses'][year][kursy[j]]['exercices']);
-    //   console.log("wyklady " + student['courses'][year][kursy[j]]['lecture']);
-    //   // var ocenyZCwiczen = studentObj['courses'][year][kursy[j]]['exercices'];
-    //   // var ocenyZwykladow= studentObj['courses'][year][kursy[j]]['lecture'];
-    //
-    //   let averageFromExercises = student['courses'][year][kursy[j]].exercices;
-    //   let averageFromLectures = student['courses'][year][kursy[j]].lecture;
-    //
-    //   grades.push(this.__getAverage(averageFromExercises));
-    //   grades.push(this.__getAverage(averageFromLectures));
-    // }
-    // console.log(grades);
-    // console.log("srednia: " + this.__getAverage([grades]));
-    //
-    // return this.__getAverage(grades);
-
     let grades = [];
-    Object.values(student.courses[year]).forEach(v => this._pushGrades(grades, v));
-    return this._getAvarage(grades);
-  }
-   _getAvarage(grades) {
-    if (grades.length === 0)
-      return 0;
-    let result = 0;
-    for (let i = 0; i < grades.length; ++i) {
-      result += grades[i];
+    for (let i = 0; i < yearsTab.length; i++) {
+      grades.push(this.getAverageForOneYear(student, yearsTab[i]));
     }
-    return result / grades.length;
+    return this._getAverage(grades);
+  }
+  getAverageForOneYear(student, year){
+    let grades = [];
+    if (student.courses[year] !== undefined) {
+      Object.values(student.courses[year]).forEach(v => this._pushGrades(grades, v));
+    } else {
+      showAverageAlert();
+    }
+    return this._getAverage(grades);
+  }
+  getAverageForStudentInYear(student, year) {
+    let grades = [];
+    if (student[0].courses[year] !== undefined) {
+      Object.values(student[0].courses[year]).forEach(v => this._pushGrades(grades, v));
+    } else {
+      showAverageAlert();
+    }
+    return this._getAverage(grades);
+  }
+  getAverageForCourse(students, year, course) {
+    let grades = [];
+    for (let i = 0; i < students.length; i++) {
+      let coursesInYear = students[i]['courses'][year];
+      let courses = [];
+      for (let course in coursesInYear) {
+        courses.push(course);
+      }
+      for (let j = 0; j < courses.length; j++) {
+        if (courses[j] === course) {
+          grades.push(this._getAverage(coursesInYear[course].exercices))
+          grades.push(this._getAverage(coursesInYear[course].lecture))
+        }
+      }
+    }
+    if (grades.length === 0) {
+      showCourseAverageError();
+    }
+    return this._getAverage(grades);
   }
 
   _pushGrades(grades, course) {
@@ -108,33 +95,15 @@ class Helper {
     grades.push(...course.lecture);
     return grades;
   }
-  loadDataToArray() {
 
-    // for (let i = 0; i < this.studentsArray.length; i++) {
-    //   this.yearsOfStudying = this.studentsArray[i]['courses'];
-    //   let currentStudentYears = [];
-    //   for (let year in this.yearsOfStudying) {
-    //     currentStudentYears.push(year);
-    //   }
-    //   console.log("currentStudentYears", currentStudentYears);
-    //   for (let j = 0; j < currentStudentYears.length; j++) {
-    //     let courses = this.studentsArray[i]['courses'][currentStudentYears[j]];
-    //
-    //     let coursesInYear = [];
-    //     for (let course in courses) {
-    //       coursesInYear.push(course);
-    //     }
-    //     console.log('coursesInYear', coursesInYear);
-    //     for (let k = 0; k < coursesInYear.length; k++) {
-    //       if (!this.lessons.includes(coursesInYear[k])) {
-    //         this.lessons.push(coursesInYear[k]);
-    //       }
-    //     }
-    //   }
-    //
-    //   console.log('lessons', this.lessons);
-    //
-    // }
+  _getAverage(grades) {
+    if (grades.length === 0) return 0;
+    let result = 0;
+    for (let i = 0; i < grades.length; ++i) {
+      result += grades[i];
+    }
+    let average = result / grades.length;
+    return Number(Math.round(average + 'e2') + 'e-2');
   }
 
   _sortByName(students) {
@@ -178,10 +147,9 @@ class Helper {
     document.getElementById("table").innerHTML = tab;
   }
 
-
   getStudent(first_name, last_name, index) {
     let student = this.studentsArray.filter(student => student.first_name === first_name && student.last_name === last_name && student.index === index);
-    console.log('finder: ' , student);
+    console.log('finder: ', student);
     return student;
   }
 }
@@ -195,6 +163,7 @@ let studentNameForAverage = '----';
 let searchingStudent = '';
 let yearOptionForCourseAverage = '----';
 let courseOptionForCourseAverage = '----';
+
 async function gets() {
   sortedList = await helper.getData('data.json');
   helper.show();
@@ -212,21 +181,41 @@ function findStudent(first_name, last_name, index) {
 }
 
 function showAverageAlert() {
-  document.getElementById('notStudyAlert').style.display = "none";
+  document.getElementById('notStudyAlert').style.display = "block";
+  document.getElementById('printAverage').innerHTML = '0.0';
 }
 
-function printAverageForStudentInYear(student){
+function showCourseAverageError() {
+  document.getElementById('courseNotExistInThisYear').style.display = "block";
+  document.getElementById('printAverageCourse').innerHTML = '0.0';
+}
+
+function printAverageForCourse(year, course) {
+  let averageForCourse = 0;
+  if (courseOptionForCourseAverage !== '----' && yearOptionForCourseAverage !== '----') {
+    averageForCourse = helper.getAverageForCourse(sortedList, year, course);
+  }
+  if (averageForCourse === 0) {
+    showCourseAverageError();
+  } else {
+    document.getElementById('printAverageCourse').innerHTML = averageForCourse;
+    document.getElementById('courseNotExistInThisYear').style.display = "none";
+  }
+}
+
+function printAverageForStudentInYear(student) {
   let average = 0;
-  if (studentNameForAverage !== '----' && yearOptionForStudentAverage !== '----'){
-    average = helper.getAverageForStudentInYear(student,yearOptionForStudentAverage);
+  if (studentNameForAverage !== '----' && yearOptionForStudentAverage !== '----') {
+    average = helper.getAverageForStudentInYear(student, yearOptionForStudentAverage);
   }
-  if(average === 0){
+  if (average === 0) {
     showAverageAlert();
-  }else{
+  } else {
     document.getElementById('printAverage').innerHTML = average;
+    document.getElementById('notStudyAlert').style.display = "none";
   }
-
 }
+
 function printTable(yearOption, courseOption) {
   let array = [];
   if (yearOption !== '----' && courseOption !== '----') {
@@ -256,7 +245,6 @@ function printTable(yearOption, courseOption) {
     document.getElementById("ListOfStudentsInChosenYearAndCourse").innerHTML = tab;
     document.getElementById('noStudentsAlert').style.display = "none";
   }
-  //console.log(array);
 }
 
 $('#listOfStudentsInCourseInYear_year').on('click', function (e) {
@@ -269,27 +257,22 @@ $('#listOfStudentsInCourseInYear_course').on('click', function (e) {
 });
 $('#studentAverageInYear_name').on('click', function (e) {
   studentNameForAverage = document.getElementById('studentAverageInYear_name').options[this.value].text;
-  if(studentNameForAverage !== '----'){
+  if (studentNameForAverage !== '----') {
     let stringSplit = studentNameForAverage.split(" ");
-    console.log(stringSplit[0]);
-    console.log(stringSplit[1]);
-    console.log(stringSplit[3]);
-    searchingStudent = findStudent(stringSplit[0],stringSplit[1],stringSplit[3]);
-    printAverageForStudentInYear(searchingStudent,yearOptionForStudentAverage);
+    searchingStudent = findStudent(stringSplit[0], stringSplit[1], stringSplit[3]);
+    printAverageForStudentInYear(searchingStudent, yearOptionForStudentAverage);
   }
 });
 $('#studentAverageInYear_year').on('click', function (e) {
   yearOptionForStudentAverage = document.getElementById('studentAverageInYear_year').options[this.value].text;
-  console.log(yearOptionForStudentAverage);
-  printAverageForStudentInYear(searchingStudent,yearOptionForStudentAverage);
+  printAverageForStudentInYear(searchingStudent, yearOptionForStudentAverage);
 });
 $('#averageForCourseInYear_year').on('click', function (e) {
   yearOptionForCourseAverage = document.getElementById('averageForCourseInYear_year').options[this.value].text;
-  console.log(yearOptionForCourseAverage);
+  printAverageForCourse(yearOptionForCourseAverage, courseOptionForCourseAverage);
 });
 $('#averageForCourseInYear_course').on('click', function (e) {
   courseOptionForCourseAverage = document.getElementById('averageForCourseInYear_course').options[this.value].text;
-  console.log(courseOptionForCourseAverage);
+  printAverageForCourse(yearOptionForCourseAverage, courseOptionForCourseAverage);
 });
 
-//console.log(helper.getAverageForStudentInYear(helper.studentsArray[0]));
