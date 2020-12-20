@@ -62,9 +62,6 @@
     height: auto;
   }
 
-  #titleForFirstFeature, #studentAverageInYear, #averageForCourseInYear {
-
-  }
 }
 
 :root {
@@ -255,7 +252,6 @@ select {
   background: linear-gradient(to right, #43c6ac, #f8ffae);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
 }
 
 #averageForCourseInYear_title {
