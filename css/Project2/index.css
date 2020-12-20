@@ -16,19 +16,48 @@
   #mainTitle {
     margin-left: 17%;
   }
+
   .card, footer, #listOfStudentsInCourseInYear {
     margin-left: 40%;
   }
-  .list-group{
-   margin: auto;
+
+  #averageForCourseInYear_course, #averageForCourseInYear_year {
+    margin-left: 30%;
   }
-  .list-group a{
+
+  #studentAverageInYear_name, #studentAverageInYear_year {
+    margin-left: 30%;
+
+  }
+
+  .list-group a {
+    margin-left: 30%;
     width: 12em;
 
   }
-  #titleForFirstFeature_img, #studentAverageInYear_img, #averageForCourseInYear_img{
+
+  #noStudentsAlert {
     width: 90%;
+    margin-left: 3%;
+  }
+
+  #courseNotExistInThisYear, #notStudyAlert {
+    width: 90%;
+    margin-left: 28%;;
+  }
+
+  #titleForFirstFeature_id, #studentAverageInYear_title, #averageForCourseInYear_title, #averageInYear, #averageCourseInYear_div {
+    margin-left: 40%;
+  }
+
+  #titleForFirstFeature_img, #studentAverageInYear_img, #averageForCourseInYear_img {
+    margin-left: 40%;
+    width: 100%;
     height: auto;
+  }
+
+  #titleForFirstFeature, #studentAverageInYear, #averageForCourseInYear {
+
   }
 }
 
@@ -57,11 +86,13 @@ html, body {
 .header_area .main-menu .navbar {
   padding: 0 1rem;
 }
-.header_area .main-menu .navbar .navbar-nav li a > img{
+
+.header_area .main-menu .navbar .navbar-nav li a > img {
   width: 3rem;
   height: 3rem;
   object-fit: cover;
 }
+
 .header_area .main-menu .navbar .navbar-brand {
   background: var(--gradient-logo);
   font-weight: 500;
@@ -99,13 +130,14 @@ html, body {
   background-clip: text;
 }
 
-.projectsIntro{
+.projectsIntro {
   background: white;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: montserrat, sans-serif;
 }
+
 #mainTitle {
   margin-top: 3%;
   font-family: "Montserrat";
@@ -130,31 +162,37 @@ html, body {
   line-height: .75;
   margin: 1% auto;
 }
-.table-responsive table{
+
+.table-responsive table {
   margin: auto;
- width: 70%;
+  width: 70%;
 }
 
 table, th, td {
   border-collapse: collapse;
   max-width: 5%;
 }
-.optionsFeatures{
+
+.optionsFeatures {
 
   position: relative;
 }
+
 .card .card-body img {
   width: 40%;
   height: auto;
 }
-.titleForFirstFeature img{
+
+.titleForFirstFeature img {
   width: 30%;
   height: auto;
 }
-.list-group{
+
+.list-group {
   width: 50%;
   margin: auto;
 }
+
 .list-group a {
   position: relative;
   display: inline-block;
@@ -173,10 +211,12 @@ table, th, td {
   transition: background-position 275ms ease;
   text-decoration: none;
 }
+
 .list-group a:hover {
   background-position: 0 100%;
 }
-.titleForFirstFeature{
+
+.titleForFirstFeature {
   font-size: 3em;
   text-transform: uppercase;
   background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
@@ -184,11 +224,11 @@ table, th, td {
   -webkit-text-fill-color: transparent;
 }
 
-select{
+select {
   width: 100%;
   min-width: 15ch;
   max-width: 30ch;
-  border: 1px solid  #777;
+  border: 1px solid #777;
   border-radius: 0.25em;
   padding: 0.25em 0.5em;
   font-size: 1.25rem;
@@ -197,11 +237,13 @@ select{
   background-color: #fff;
   background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
 }
-#titleForFirstFeature_img, #studentAverageInYear_img, #averageForCourseInYear_img{
+
+#titleForFirstFeature_img, #studentAverageInYear_img, #averageForCourseInYear_img {
   width: 50%;
   height: auto;
 }
-#studentAverageInYear_title{
+
+#studentAverageInYear_title {
   font-size: 3em;
   text-transform: uppercase;
   background: linear-gradient(to right, #43c6ac, #f8ffae);
@@ -209,22 +251,26 @@ select{
   -webkit-text-fill-color: transparent;
 
 }
-#averageForCourseInYear_title{
+
+#averageForCourseInYear_title {
   font-size: 3em;
   text-transform: uppercase;
   background: linear-gradient(to right, #3494e6, #ec6ead);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.studentsInYear, .alert{
+
+.studentsInYear, .alert {
   width: 30%;
   margin: auto;
 }
-#ListOfStudentsInChosenYearAndCourse{
+
+#ListOfStudentsInChosenYearAndCourse {
   width: 70%;
   margin: auto;
 }
-.studentGradeInChosenYear{
+
+.studentGradeInChosenYear {
   width: 50%;
   margin: auto;
 }
