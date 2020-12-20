@@ -1,7 +1,6 @@
 class Helper {
   constructor() {
     this.studentsArray = [];
-    this.lessons = [];
   }
 
   async getData(url) {

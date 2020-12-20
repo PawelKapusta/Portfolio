@@ -43,7 +43,10 @@
     width: 90%;
     margin-left: 3%;
   }
-
+  .card img{
+    width: 90%;
+    height: auto;
+  }
   #courseNotExistInThisYear, #notStudyAlert {
     width: 90%;
     margin-left: 28%;;
